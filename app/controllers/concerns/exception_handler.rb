@@ -1,5 +1,12 @@
 module ExceptionHandler
-  extend ActiveSupport::Concern
+  extend ActiveSupport::
+  
+  # Define custom error subclasses - rescue catches `StandardErrors`
+  class AuthenticationError < StandardError; end
+  class MissingToken < StandardError; end
+  class InvalidToken < StandardError; end
+  class ExpiredSignature < StandardError; end
+  class DecodeError < StandardError; end
 
   # JSON response with message; Status code 422 - unprocessable entity
   def four_twenty_two(e)
