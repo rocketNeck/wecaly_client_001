@@ -2,6 +2,7 @@ class AuthenticateUser
   prepend SimpleCommand
   attr_accessor :email, :password
 
+  #init a AuthenticateUser class with email and password
   def initialize(email, password)
     @email = email
     @password = password
