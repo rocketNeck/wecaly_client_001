@@ -1,24 +1,12 @@
-# README
+# wecaly
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+wecaly is a project in the making. It is a very early stage social event funding app. 
 
-Things you may want to cover:
+This application uses:
+* Ruby 2.4.0
+* Rails 5.1.4 (api only)
+* Postgresql
+* Simple Command gem
+* jwt gem
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
