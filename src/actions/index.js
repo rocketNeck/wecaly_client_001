@@ -8,5 +8,5 @@ export function signinUser({ email, password }) {
   // - redirect to the route  '/feature'
 
   //if request if bad
-  // - show an error to the user
+  // - show error
 }
